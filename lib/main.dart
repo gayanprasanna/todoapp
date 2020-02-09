@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/todo_list.dart';
+import 'package:todo_app/todo_list_screen.dart';
 
 void main() {
 //  SystemChrome.setEnabledSystemUIOverlays([]);//Makes app full screen and kindof stuff
@@ -24,6 +24,6 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: TodoList());
+        home: TodoListScreen());
   }
 }
